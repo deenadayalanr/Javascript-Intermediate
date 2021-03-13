@@ -43,6 +43,7 @@ console.log(trial);
 
 
 
+// Task
 
 //  splice operation
 //It is a task to be completed...Please check what is meant by splice operation in JavaScript

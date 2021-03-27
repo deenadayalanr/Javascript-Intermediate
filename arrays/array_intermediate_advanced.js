@@ -4,46 +4,48 @@ console.log(number);
 
 
 
-//   every Operation
+// //   every Operation
 
-let value=number.every( (e) => { return e%2===0}); // () => {}
-console.log(value);
-
-
-
-//  fill operation
-
-number.fill(0);
-number.fill(0,4);
-number.fill(0,3,6);
-console.log(number);
+// let value=number.every( (e) => { return e%2===0}); // () => {}
+// console.log(value);
 
 
 
-// filter operation
+// //  fill operation
 
-let r=number.filter( (e) => { return e>5});
-console.log(r);
-
-
-
-//  concat operation
-
-let test=[9,10,11,12,13];
-console.log(test);
-let finalArray=number.concat(test);
-console.log(finalArray);
+// number.fill(0);
+// number.fill(0,4);
+// number.fill(0,3,6);
+// console.log(number);
 
 
 
-//  find operation
+// // filter operation
 
-let trial=number.find( (e) => {return e>3});
-console.log(trial);
+// let r=number.filter( (e) => { return e>5});
+// console.log(r);
 
 
 
-// Task
+// //  concat operation
+
+// let test=[9,10,11,12,13];
+// console.log(test);
+// let finalArray=number.concat(test);
+// console.log(finalArray);
+
+
+
+// //  find operation
+
+// let trial=number.find( (e) => {return e>3});
+// console.log(trial);
+
+
 
 //  splice operation
-//It is a task to be completed...Please check what is meant by splice operation in JavaScript
+
+number.splice(1,2,0,0,0);
+
+console.log(number);
+

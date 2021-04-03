@@ -17,7 +17,7 @@ let courseEnroll={
 
     courseNames:function() {
         return `Courses Enrolled are : ${this.courses}`;
-    }
+    },
 };
 
 console.log(courseEnroll.buyCourse('JavaScript'));
@@ -29,3 +29,5 @@ console.log(courseEnroll.buyCourse('Database'));
 console.log(courseEnroll.courseCount());
 
 console.log(courseEnroll.courseNames());
+
+console.log(courseEnroll);

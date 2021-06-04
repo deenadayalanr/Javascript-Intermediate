@@ -1,3 +1,5 @@
+
+  
 let userArray=[];
 
 const login=(email,password) => {
@@ -30,6 +32,7 @@ const register=(name,email,mobileNumber,age,password,confirmPassword) => {
     }
     else{
         if(User.password === User.confirmPassword){
+            const passwordStrength = User.password.split("");
             console.log('User Registration Successful');
             userArray.push(User);
         }
